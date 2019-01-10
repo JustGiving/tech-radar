@@ -1,9 +1,9 @@
 {
-  "name": "zalando-tech-radar",
+  "name": "JustGiving-tech-radar",
   "version": "2018.5.0",
   "description": "Visualizing our technology choices",
   "homepage": "https://github.com/zalando/tech-radar#readme",
-  "repository": "https://github.com/zalando/tech-radar.git",
+  "repository": "https://github.com/JustGiving/tech-radar.git",
   "license": "MIT",
   "directories": {
     "doc": "docs"
@@ -18,5 +18,8 @@
     "lint": "npm run lint:js && npm run lint:html",
     "lint:js": "eslint docs/*.js",
     "lint:html": "htmllint docs/*.html"
+  },
+  "dependencies": {
+    "yarn": "^1.13.0"
   }
 }
